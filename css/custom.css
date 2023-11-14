@@ -1,0 +1,18 @@
+#toc {
+  align-self: flex-start;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0.75rem;
+}
+@media screen and (min-width: 1472px) {
+  .is-2-column .container {
+    max-width: 1344px;
+    width: 1344px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .column.is-4-widescreen {
+    flex: none;
+    width: 25%;
+  }
+}
